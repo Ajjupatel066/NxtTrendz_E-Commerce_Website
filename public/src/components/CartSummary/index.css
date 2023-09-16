@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.summary-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .summary-card {
+    width: 250px;
+  }
+}
+
+.check-out-button {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  padding: 8px 16px;
+  color: #ffffff;
+  background-color: #0967d2;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+}
+
+.total-cost {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.total-text {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.cart-total-text {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #616e7c;
+}
